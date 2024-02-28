@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DashBoard</title>
-        <link rel="stylesheet" href="Dash.css">
-    </head>
-    <body>
-        <h1>Welcome to the Campus Virtual Assistant</h1>
-        <div class="container">
-            <div class="Chat-container">
-                <!-- Chat messages will appear here-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant Dashboard</title>
+    <link rel="stylesheet" href="Dash.css">
+</head>
+<body>
+    <header>
+        <h1>AI Assistant Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="side-bar">
+            <div class="user-profile">
+                <img src="user.png" alt="User Profile Picture">
+                <h2>John Doe</h2>
+                <p>I am an AI Assistant</p>
+        </section>
+        <section class="chat-section">
+            <div class="chat-container">
+                <!-- Chat messages will appear here -->
             </div>
-            <div class="input-container">
+            <form id="chat-form">
                 <input type="text" id="user-input" placeholder="Type your message here...">
-                <button onclick="sendMessage()">Send</button>
-            </div>
-        </div>
-
-        <script src="Dash.js"></script>
-    </body>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 AI Assistant Inc. All rights reserved.</p>
+    </footer>
+    <script src="Dash.js"></script>
+</body>
 </html>
