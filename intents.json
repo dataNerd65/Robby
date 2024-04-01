@@ -1,0 +1,12 @@
+[
+    {"intent": "fees_payment", "query": "How do I pay my fees?"},
+    {"intent": "results_check", "query": "Where can I check my exam results?"},
+    {"intent": "courses_available", "query": "What courses are available this semester?"},
+    {"intent": "graduation_date", "query": "When is the graduation ceremony?"},
+    {"intent": "portal_access", "query": "How do I access the student portal?"},
+    {"intent": "hostel_info", "query": "Where can I find information about hostel accommodation?"},
+    {"intent": "sports_club_join", "query": "How can I join a sports club?"},
+    {"intent": "library_hours", "query": "What are the library opening hours?"},
+    {"intent": "ict_support", "query": "Where can I get ICT support?"},
+    {"intent": "course_enrollment", "query": "How do I enroll in a new course?"}
+]
